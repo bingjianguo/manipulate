@@ -1,0 +1,33 @@
+{
+  "defaultSeverity": "error",
+  "extends": "tslint:latest",
+  "jsRules": {},
+  "noImplicitAny": false,
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*"
+    ]
+  },
+  "rules": {
+    "quotemark": [true, "single", "jsx-double", "avoid-escape", "avoid-template"],
+    "unified-signatures": false,
+    "max-line-length": [true, 180],
+    "no-empty": false,
+    "interface-over-type-literal": false,
+    "ordered-imports": [
+      false
+    ],
+    "object-literal-sort-keys": false,
+    "file-name-casing": [true, {".tsx": "pascal-case", ".ts": "kebab-case"}],
+    "jsx-curly-spacing": "never",
+    "jsx-equals-spacing": "never",
+    "jsx-boolean-value": false,
+    "jsx-no-bind": false,
+    "jsx-no-lambda": false,
+    "jsx-no-multiline-js": false,
+    "jsx-wrap-multiline": false,
+    "jsx-use-translation-function": false,
+    "prefer-for-of": false
+  },
+  "rulesDirectory": []
+}
