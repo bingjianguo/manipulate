@@ -17,6 +17,3 @@
 * 0.3.0 增加针对Object对象的removeNulls方法
 * 0.3.1 增加对对象深比较的函数deepEqual方法
 
-### 行业前端其他工具函数包
-1. @alipay/hybrid-utils 互动营销组
-2. @alipay/any-utils 基础产品组
